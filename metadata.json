@@ -1,0 +1,10 @@
+{
+	"name": "Q2A Google Cloud Storage plugin",
+	"description": "Helps you upload your files to your Google Cloud Storage",
+	"version": "1.0",
+	"date": "2017-09-24",
+	"author": "Publicity Port",
+	"author_uri": "https://publicityport.com",
+	"license": "GPLv3",
+	"min_q2a": "1.7.4"
+}
