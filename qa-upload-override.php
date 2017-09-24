@@ -30,6 +30,9 @@ function qa_create_blob($content, $format, $sourcefilename=null, $userid=null, $
 		return qa_create_blob_base($content, $format, $sourcefilename, $userid, $cookieid, $ip);
   }
   
+  /*
+  	This function accepts the file name and remove extension, any white spaces, append timestamp and replace any space char with '-'
+  */
   function get_just_a_file_name($sourcefilename){
 	$filename = $sourcefilename;
 	$date = new DateTime();

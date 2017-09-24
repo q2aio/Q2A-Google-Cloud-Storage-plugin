@@ -1,6 +1,6 @@
 <?php
 /*
-
+Setting up the admin page options.
 */
 class qa_gcs_admin_config
 {
@@ -17,17 +17,17 @@ class qa_gcs_admin_config
     }
 
     return array(
-      'ok' => $saved ? 'Google Cloud Storage API settings saved' : null,
+      'ok' => $saved ? 'Google Cloud Storage(GCS) API settings saved' : null,
 
       'fields' => array(
         array(
-          'label' => 'Do you want to enable upload to Google Cloud Storage?',
+          'label' => 'Do you want to enable upload to Google Cloud Storage (GCS)?',
           'type' => 'checkbox',
           'value' => (bool)qa_opt('gcs_api_on'),
           'tags' => 'NAME="gcs_api_on_cb"',
         ),
         array(
-          'label' => 'GCS API JSON: (Generate JSON credential file through OAuth 2.0)',
+          'label' => 'GCS API JSON: (Enter absolute location to the Service account key JSON file)',
           'value' => qa_html(qa_opt('gcs_api_key_location')),
           'tags' => 'name="gcs_api_key_location_field"',
         ),
