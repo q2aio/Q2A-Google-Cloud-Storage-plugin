@@ -19,7 +19,7 @@ Installation
      at the command prompt (on Linux, Windows is a bit different)
    - To download directly, go to the `project page`_ and click **Download**
 
-#. Go to **Admin -> Plugins** on your q2a install and select the '**Q2A MailGun integration**' option, then check option '**Do you want to enable send email via MailGun API**', enter your '**MailGun API Key:**' and '**Your domain**', then '**Save Changes**'.
+#. Go to **Admin -> Plugins** on your q2a install and select the '**Q2A Google Cloud Storage plugin**' option, then check option '**Do you want to enable upload to Google Cloud Storage?**', enter your '**GCS API JSON**' file location, enter your '**Project ID**' and '**Bucket Name**', then '**Save Changes**'.
 
 .. _Question2Answer: http://www.question2answer.org/install.php
 .. _git: http://git-scm.com/
