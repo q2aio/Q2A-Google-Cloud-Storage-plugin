@@ -1,0 +1,24 @@
+{
+    "name": "google/cloud-pubsub",
+    "description": "Cloud PubSub Client for PHP",
+    "license": "Apache-2.0",
+    "minimum-stability": "stable",
+    "require": {
+        "google/cloud-core": "^1.0",
+        "google/proto-client": "^0.23",
+        "google/gax": "^0.23"
+    },
+    "extra": {
+        "component": {
+            "id": "cloud-pubsub",
+            "target": "GoogleCloudPlatform/google-cloud-php-pubsub.git",
+            "path": "src/PubSub",
+            "entry": "PubSubClient.php"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Google\\Cloud\\PubSub\\": ""
+        }
+    }
+}
