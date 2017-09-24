@@ -7,6 +7,6 @@
 	"author": "Publicity Port",
 	"author_uri": "https://publicityport.com",
 	"license": "GPLv3",
-	"update_uri": "",
+	"update_uri": "https://raw.githubusercontent.com/PublicityPort/Q2A-Google-Cloud-Storage-plugin/master/VERSION.txt",
 	"min_q2a": "1.7.4"
 }
