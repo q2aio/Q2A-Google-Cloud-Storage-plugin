@@ -50,3 +50,10 @@ About Q2A
 Question2Answer is a free and open source platform for Q&A sites. For more information, visit:
 
 http://www.question2answer.org/
+
+---------
+Question2Answer plugin development.
+---------
+If you want any plugin to be developed, you can contact us via below form.
+
+https://publicityport.com/question2answer-plugin-development/
